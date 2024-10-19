@@ -31,7 +31,7 @@ section {
   z-index: 1000;
   transition: 1s;
   box-shadow: 1px 2px 5px black;
-  background: #5c5c0a;
+  background: #245c0a;
 }
 .navbar #navlist {
   display: flex;
@@ -232,7 +232,7 @@ section {
   height: 6rem;
   width: 100%;
   bottom: 0;
-  background-color: #5c5c0a;
+  background-color: #245c0a;
   align-items: center;
   display: flex;
   flex-direction: row;

@@ -4,7 +4,7 @@
 $text: 'Quicksand', sans-serif;
 $title: 'Cabin', sans-serif;
 $white: #F8F7F3;
-$olive: #5c5c0a;
+$green: #245c0a;
 
 //Genéricos
 html {
@@ -39,7 +39,7 @@ section {
     z-index: 1000;
     transition: 1s;
     box-shadow: 1px 2px 5px black;
-    background: $olive;
+    background: $green;
 
     #navlist {
         display: flex;
@@ -279,7 +279,7 @@ section {
     height: 6rem;
     width: 100%;
     bottom: 0;
-    background-color: $olive;
+    background-color: $green;
     align-items: center;
     display: flex;
     flex-direction: row;

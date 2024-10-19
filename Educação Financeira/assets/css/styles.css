@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 html {
@@ -31,7 +32,7 @@ section {
   z-index: 1000;
   transition: 1s;
   box-shadow: 1px 2px 5px black;
-  background: #5c5c0a;
+  background: #245c0a;
 }
 .navbar #navlist {
   display: flex;
@@ -122,13 +123,13 @@ section {
   font-family: "Quicksand", sans-serif;
 }
 
-#adocao .grid {
+#orçamento .grid {
   width: 85%;
   margin-left: 7.5%;
   height: 90%;
   display: flex;
 }
-#adocao .grid #banner3 {
+#orçamento .grid #banner3 {
   min-width: 60%;
   height: 80%;
   border-radius: 10px;
@@ -139,32 +140,32 @@ section {
   box-shadow: 2px 0 10px grey;
   transition: all 0.5s;
 }
-#adocao .grid #banner3:hover {
+#orçamento .grid #banner3:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
-#adocao .grid #texto2 {
+#orçamento .grid #texto2 {
   margin-left: 7.5%;
 }
-#adocao .grid #texto2 h1 {
+#orçamento .grid #texto2 h1 {
   text-align: center;
   font-size: 40px;
   font-family: "Cabin", sans-serif;
 }
-#adocao .grid #texto2 p, #adocao .grid #texto2 li {
+#orçamento .grid #texto2 p, #orçamento .grid #texto2 li {
   margin: 3% 0;
   font-size: 20px;
   text-align: justify;
   font-family: "Quicksand", sans-serif;
 }
 
-#cuidados .grid {
+#despesas .grid {
   width: 85%;
   margin-left: 7.5%;
   height: 90%;
   display: flex;
 }
-#cuidados .grid #banner4 {
+#despesas .grid #banner4 {
   min-width: 60%;
   height: 80%;
   border-radius: 10px;
@@ -176,29 +177,29 @@ section {
   transition: all 0.5s;
   margin-left: 7.5%;
 }
-#cuidados .grid #banner4:hover {
+#despesas .grid #banner4:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
-#cuidados .grid #texto3 h1 {
+#despesas .grid #texto3 h1 {
   text-align: center;
   font-size: 40px;
   font-family: "Cabin", sans-serif;
 }
-#cuidados .grid #texto3 p, #cuidados .grid #texto3 li {
+#despesas .grid #texto3 p, #despesas .grid #texto3 li {
   margin: 3% 0;
   font-size: 20px;
   text-align: justify;
   font-family: "Quicksand", sans-serif;
 }
 
-#direitos .grid {
+#investimentos .grid {
   width: 85%;
   margin-left: 7.5%;
   height: 90%;
   display: flex;
 }
-#direitos .grid #banner5 {
+#investimentos .grid #banner5 {
   min-width: 60%;
   height: 80%;
   border-radius: 10px;
@@ -209,19 +210,19 @@ section {
   box-shadow: 2px 0 10px grey;
   transition: all 0.5s;
 }
-#direitos .grid #banner5:hover {
+#investimentos .grid #banner5:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
-#direitos .grid #texto4 {
+#investimentos .grid #texto4 {
   margin-left: 7.5%;
 }
-#direitos .grid #texto4 h1 {
+#investimentos .grid #texto4 h1 {
   text-align: center;
   font-size: 40px;
   font-family: "Cabin", sans-serif;
 }
-#direitos .grid #texto4 p, #direitos .grid #texto4 li {
+#investimentos .grid #texto4 p, #investimentos .grid #texto4 li {
   margin: 3% 0;
   font-size: 20px;
   text-align: justify;
@@ -232,7 +233,7 @@ section {
   height: 6rem;
   width: 100%;
   bottom: 0;
-  background-color: #5c5c0a;
+  background-color: #245c0a;
   align-items: center;
   display: flex;
   flex-direction: row;
