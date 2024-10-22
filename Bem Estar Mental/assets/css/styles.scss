@@ -1,0 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+$text: 'Quicksand', sans-serif;
+$title: 'Cabin', sans-serif;
+$white: #F8F7F3;
+$green: #1a4f94;
+
+//Genéricos
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $white;
+}
+
+section {
+    height: 100vh;
+}
+
+//Navigation Bar
+.navbar {
+    width: 100%;
+    height: 9rem;
+    position: fixed;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    z-index: 1000;
+    transition: 1s;
+    box-shadow: 1px 2px 5px black;
+    background: $green;
+
+    #navlist {
+        display: flex;
+        flex-direction: row;
+        gap: 180px;
+        list-style-type: none;
+        font-size: 2.5rem;
+        user-select: none;
+    
+        button {
+            font-size: 2.5rem;
+            height: 3.4rem;
+            background: none;
+            margin-top: 1.6rem;
+            color: $white;
+            font-family: 'Cabin', sans-serif;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: none;
+            border: none;
+        }
+
+        #titulo {
+            font-family: $text;
+            font-size: 40px;
+            font-weight: lighter;
+            text-align: center;
+            margin: 2% 0;
+            color: $white;
+        }
+    }
+}
+
+//Inicial
+#inicial {
+    padding-top: 8%;
+
+    .grid {
+        width: 85%;
+        margin-left: 7.5%;
+        height: 80%;
+        display: flex;
+    
+        #banner {
+            min-width: 40%;
+            height: 100%;
+            border-radius: 10px;
+            background-image: url(../img/Banner.jpg);
+            background-size: cover;
+            border: none;
+            box-shadow: 2px 0 10px grey;
+            transition: all .5s;
+            margin-top: auto;
+        }
+
+        #banner:hover {
+            transform: scale(1.1);
+            transition: all .5s;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+
+            #banner2 {
+                min-width: 50%;
+                min-height: 47.5%;
+                border-radius: 10px;
+                background-image: url(../img/Banner2.jpg);
+                background-size: cover;
+                background-position: 10%;
+                border: none;
+                box-shadow: 2px 0 10px grey;
+                transition: all .5s;
+                margin-top: auto;
+            }
+
+            #banner2:hover {
+                transform: scale(1.1);
+                transition: all .5s;
+            }
+    
+            #texto1 {
+                h1 {
+                    text-align: center;
+                    font-size: 40px;
+                    font-family: $title;
+                }
+    
+                p {
+                    margin: 3% 0;
+                    font-size: 20px;
+                    text-align: justify;
+                    font-family: $text;
+                }
+            }
+        }
+    }
+    
+}
+
+//Adoção
+#adocao {
+    .grid {
+        width: 85%;
+        margin-left: 7.5%;
+        height: 90%;
+        display: flex;
+
+        #banner3 {
+            min-width: 60%;
+            height: 80%;
+            border-radius: 10px;
+            background-image: url(../img/Banner3.jpg);
+            background-size: cover;
+            background-position: 10%;
+            border: none;
+            box-shadow: 2px 0 10px grey;
+            transition: all .5s;
+        }
+
+        #banner3:hover {
+            transform: scale(1.1);
+            transition: all .5s;
+        }
+
+        #texto2 {
+            margin-left: 7.5%;
+
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                font-family: $title;
+            }
+
+            p, li {
+                margin: 3% 0;
+                font-size: 20px;
+                text-align: justify;
+                font-family: $text;
+            }
+        }
+    }
+}
+
+//Cuidados
+#cuidados {
+    .grid {
+        width: 85%;
+        margin-left: 7.5%;
+        height: 90%;
+        display: flex;
+
+        #banner4 {
+            min-width: 60%;
+            height: 80%;
+            border-radius: 10px;
+            background-image: url(../img/Banner4.jpg);
+            background-size: cover;
+            background-position: 10%;
+            border: none;
+            box-shadow: 2px 0 10px grey;
+            transition: all .5s;
+            margin-left: 7.5%;
+        }
+
+        #banner4:hover {
+            transform: scale(1.1);
+            transition: all .5s;
+        }
+
+        #texto3 {
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                font-family: $title;
+            }
+
+            p, li {
+                margin: 3% 0;
+                font-size: 20px;
+                text-align: justify;
+                font-family: $text;
+            }
+        }
+    }
+}
+
+//Direitos
+#direitos {
+    .grid {
+        width: 85%;
+        margin-left: 7.5%;
+        height: 90%;
+        display: flex;
+
+        #banner5 {
+            min-width: 60%;
+            height: 80%;
+            border-radius: 10px;
+            background-image: url(../img/Banner5.jpg);
+            background-size: cover;
+            background-position: 10%;
+            border: none;
+            box-shadow: 2px 0 10px grey;
+            transition: all .5s;
+        }
+
+        #banner5:hover {
+            transform: scale(1.1);
+            transition: all .5s;
+        }
+
+        #texto4 {
+            margin-left: 7.5%;
+
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                font-family: $title;
+            }
+
+            p, li {
+                margin: 3% 0;
+                font-size: 20px;
+                text-align: justify;
+                font-family: $text;
+            }
+        }
+    }
+}
+
+//Footer
+#footer {
+    height: 6rem;
+    width: 100%;
+    bottom: 0;
+    background-color: $green;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    p {
+        color: $white;
+        font-size: 1.75rem;
+        font-family: $text;
+        font-weight: bold;
+    }
+
+    a {
+        color: rgb(176, 199, 46);
+        text-decoration: none;
+    }
+}

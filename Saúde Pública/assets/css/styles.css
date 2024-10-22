@@ -79,7 +79,6 @@ section {
   border-radius: 10px;
   background-image: url(../img/Banner.jpg);
   background-size: cover;
-  background-position: 10%;
   border: none;
   box-shadow: 2px 0 10px grey;
   transition: all 0.5s;
